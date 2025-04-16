@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <h3 style="display: inline;">Enter Your name:</h3>
+    <input type="text" id="name" placeholder="Enter your name" style="display: inline; margin-left: 20px;" /> <br> <br>
+    
+    <h3 style="display: inline;">Enter Your age:</h3>
+    <input type="text" id="age" placeholder="Enter your age" style="display: inline; margin-left: 36px;" /> <br> <br>
+    
+    <h3>Select your Gender:</h3>
+    <div style="display: flex; gap: 20px; align-items: center; padding-left: 5px;">
+        <label>
+            <input type="radio" name="gender" value="male" style="display: none;">
+            <img src="../Task/1.jpg" alt="Male Icon" style="cursor: pointer; width: 100px;">
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female" style="display: none;">
+            <img src="../Task/2.jpg" alt="Female Icon" style="cursor: pointer; width: 180px;">
+        </label>
+    </div>
+    <br> <br>
+    
+    <h3 style="display: inline;">Select your favourite color:</h3>
+    <select id="favoriteColor" style="display: inline; margin-left: 20px;">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="orange">Orange</option>
+        <option value="purple">Purple</option>
+        <option value="pink">Pink</option>
+        <option value="brown">Brown</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+    </select> 
+    <br> <br>
+    
+    <div>
+        <input type="button" value="Register" id="register" style="margin-left: 200px;" />
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
