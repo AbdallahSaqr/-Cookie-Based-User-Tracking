@@ -33,14 +33,13 @@ JavaScript – Cookie handling and dynamic content updates
 
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 ├── index.html      # User registration form
 ├── index.js        # Handles form input and cookie creation
 ├── page2.html      # Displays user data and visit stats
 ├── script2.js      # Reads cookies and updates content dynamically
-├── Task/           # Contains gender-specific images (e.g., 1.jpg, 2.jpg)
+├── 1,2             # Gender-specific images (e.g., 1.jpg, 2.jpg)
+
 👣 Usage Guide
 1. User Registration (index.html)
 Enter your name, age, gender, and favorite color
